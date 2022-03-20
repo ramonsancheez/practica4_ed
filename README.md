@@ -21,6 +21,12 @@ git init
 git remote add origin https://github.com/ramonsancheez/practica4_ed.git
 ```
 
+![image](https://user-images.githubusercontent.com/92529346/159180149-c32c72da-00f7-4806-b896-146a7063e3b6.png)
+![image](https://user-images.githubusercontent.com/92529346/159180093-fc3a0612-28cf-4b43-9caa-10ff7dd863ab.png)
+![image](https://user-images.githubusercontent.com/92529346/159180106-75a7dabe-1731-4a60-b651-5282af58cc42.png)
+![image](https://user-images.githubusercontent.com/92529346/159180120-3b83c00b-e257-427f-a756-e0b86f9216c2.png)
+
+
 eso es lo que tienes que hacer tu, clonas el repo, refactorizas dos cosas en develop (haces un refac y haces add y commit, y creas una tag nueva (sería la v1.3.0), despues, vuelves a hacer otro refact,add, commit y tag (v1.4.0), y en master los mergeas
 git add
 git commit
