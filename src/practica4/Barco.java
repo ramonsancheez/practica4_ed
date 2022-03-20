@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author Juan Llado
  */
-public class Barco implements ISonido{
+public class Barco{
     
     private Adulto dueño;
     private String nombreBarco;
@@ -96,9 +96,6 @@ public class Barco implements ISonido{
         return "Barco{" + "due\u00f1o=" + dueño + ", nombreBarco=" + nombreBarco + ", fechaConstruccion=" + fechaConstruccion + ", numCamarotes=" + numCamarotes + ", motor=" + motor + '}';
     }
 
-    
-    
-    @Override
     public void sonido() {
         System.out.println(this.nombreBarco + " hace BBBBRRRR");
     }
