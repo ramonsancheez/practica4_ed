@@ -97,7 +97,7 @@ public class Barco implements ISonido{
     }
     @Override
     public void sonido() {
-        System.out.println(this.nombreBarco + " hace BBBBRRRR");
+        System.out.println(this.nombreBarco + " 'sonido de sirena'");
     }
     
     
