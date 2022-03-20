@@ -7,9 +7,9 @@ package practica4;
 
 /**
  *
- * @author Juan Llado
+ * @author Ramón Sánchez
  */
-public  class Mascota{
+public  class Mascota implements ISonido{
     private String nombre;
     private int edad;
 
@@ -42,6 +42,7 @@ public  class Mascota{
         return "Mascota{" + "nombre=" + nombre + ", edad=" + edad + '}';
     }
 
+    @Override
     public void sonido() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
