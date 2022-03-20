@@ -20,18 +20,25 @@ Cuando ya tenemos la versión deseada, es necesario eliminar la carpeta .git, as
 git init
 git remote add origin https://github.com/ramonsancheez/practica4_ed.git
 ```
+ahora mostraremos unos ejemplos de el uso de tags, y a la vez aprovecharemos para enseñar como un nuevo usuario puede unirse al proyecto:
 
-![image](https://user-images.githubusercontent.com/92529346/159180149-c32c72da-00f7-4806-b896-146a7063e3b6.png)
-![image](https://user-images.githubusercontent.com/92529346/159180093-fc3a0612-28cf-4b43-9caa-10ff7dd863ab.png)
+para empezar debemos clonar el repositorio
+```
+git clone "URL"
+```
+luego nos movemos a la branch develop donde se realizan los cambios de prueba
+```
+git checkout develop
+```
+una vez realizado esto modificamos las lineas de codigo que queramos refactorizar
+
 ![image](https://user-images.githubusercontent.com/92529346/159180106-75a7dabe-1731-4a60-b651-5282af58cc42.png)
 ![image](https://user-images.githubusercontent.com/92529346/159180120-3b83c00b-e257-427f-a756-e0b86f9216c2.png)
 
+ahora creariamos una tag para marcar que version del programa va a ser, al ser una revision del codigo sin nuevas funcionalidades hemos decidido versionarla como 1.3.1
 
-eso es lo que tienes que hacer tu, clonas el repo, refactorizas dos cosas en develop (haces un refac y haces add y commit, y creas una tag nueva (sería la v1.3.0), despues, vuelves a hacer otro refact,add, commit y tag (v1.4.0), y en master los mergeas
-git add
-git commit
-git tag v1.X.0
-git push -u origin rama_principal
-git push --tags 
+![image](https://user-images.githubusercontent.com/92529346/159180149-c32c72da-00f7-4806-b896-146a7063e3b6.png)
 
-escribe en el readme las dos refacts que haces, y mira de poner comentarios javaDoc
+una vez creamos la tag hacemos un push con el siguiente comando 
+
+![image](https://user-images.githubusercontent.com/92529346/159180093-fc3a0612-28cf-4b43-9caa-10ff7dd863ab.png)
