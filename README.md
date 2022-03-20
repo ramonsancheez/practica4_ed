@@ -1,9 +1,11 @@
 # practica4_ed
 
 Para la realización de esta práctica, el primer paso que necesitamos llevar a cabo, es la clonación del proyecto a nuestro local:
+
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/91556453/159168300-f420e27a-e386-4311-a2b0-bfa4c5fbc8ef.png">
 
 De este modo, obtendremos el proyecto en nuestro ordenador:
+
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/91556453/159168425-a6d64ce3-39a1-49c5-8ef3-712dd4f76bde.png">
 
 Una vez clonado el repositorio, será necesario que vayamos a las tags del repositorio para coger la versión que queramos, en nuestro caso, la v.1.1.0:
