@@ -50,7 +50,7 @@ public class Juguete {
 
     @Override
     public String toString() {
-        return "Juguete{" + "nombreJuguete=" + nombreJuguete + ", precio=" + precio + ", edadRecomendada=" + edadRecomendada + '}';
+        return "Juguete{ " + "nombreJuguete = " + nombreJuguete + ", precio = " + precio + ", edadRecomendada = " + edadRecomendada + '}';
     }
     
     
